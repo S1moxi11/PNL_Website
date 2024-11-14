@@ -59,7 +59,8 @@ p {
 }
 
 
-a.one, a.two {
+a.one,
+a.two {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -72,7 +73,8 @@ a.one, a.two {
 }
 
 
-a.one:hover, a.two:hover {
+a.one:hover,
+a.two:hover {
     color: #222;
     background-color: #f5f5f5;
     border-color: #222;
@@ -142,6 +144,7 @@ footer p {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -151,9 +154,11 @@ footer p {
     0% {
         opacity: 1;
     }
+
     99% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         visibility: hidden;
