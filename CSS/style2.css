@@ -21,6 +21,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
 }
 
 h1 {
@@ -29,7 +31,6 @@ h1 {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -38,7 +39,7 @@ section {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
 }
 
 h2 {
@@ -70,6 +71,7 @@ a.two {
     padding: 10px 20px;
     border: 2px solid transparent;
     border-radius: 5px;
+    background-color: #333;
 }
 
 
@@ -88,7 +90,7 @@ a.two:hover {
 
 footer p {
     text-align: center;
-    font-size: small;
+    font-size: xx-small;
     color: #888;
     margin-top: 40px;
 }
@@ -100,19 +102,28 @@ footer p {
     }
 
     header h1 {
-        font-size: 2.2em;
+        font-size:larger;
     }
 
     h2 {
-        font-size: 1.6em;
+        font-size:large;
     }
 
     p {
-        font-size: 1em;
+        font-size: small;
     }
 
     footer p {
-        font-size: 0.9em;
+        font-size: xx-small;
+    }
+
+    .lien {
+        font-size: small;
+    }
+
+    a.one:active, a.two:active {
+        background-color: white;
+        color: #000;
     }
 }
 
