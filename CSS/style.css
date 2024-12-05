@@ -19,6 +19,7 @@ header {
     top: 0;
     z-index: 10;
     border-radius: 8px;
+    font-family: "Space Grotesk";
 }
 
 header img {
@@ -117,7 +118,6 @@ footer p {
 
 .ademo, .nos {
     font-weight: bold;
-    text-decoration: underline;
     color: #6d8fec;
 }
 
