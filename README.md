@@ -48,6 +48,6 @@ Un hommage à leur philosophie artistique, leur indépendance et leur impact cul
 
 Ma biographie avec mes intérêts et mes motivations derrière ce projet.
 
-## Hébergement
+## Lien vers la page
 
 https://s1moxi11.github.io/SAE_14/
