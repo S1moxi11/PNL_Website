@@ -50,4 +50,4 @@ Ma biographie avec mes intérêts et mes motivations derrière ce projet.
 
 ## Lien vers la page
 
-https://s1moxi11.github.io/SAE_14/
+https://s1moxi11.github.io/PNL_Website/
